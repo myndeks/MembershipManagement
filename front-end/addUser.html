@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/addUser.js" defer charset="utf-8"></script>
+    <script src="js/nav.js" defer charset="utf-8"></script>
+
+  </head>
+  <body>
+
+    <nav class="btnNav">
+      <div>
+        <a class="mmberships" href="index.html">Memberships</a>
+      </div>
+      <div>
+          <a class="users" href="users.html">Users</a>
+      </div>
+    </nav>
+
+    <main class="sub container">
+
+      <div class="sub--heading">
+        <h3>Create User</h3>
+      </div>
+
+      <div class="sub--info">
+
+
+      <form class="sub--form">
+        <div class="form--first">
+          <div class="form--firstname">
+             <label for="name">First Name: *</label>
+            <input type="text" name="name" id="name" placeholder="First name">
+          </div>
+
+          <div class="form--surename">
+             <label for="surname">Last Name: *</label>
+            <input type="text" name="surname" id="surname" placeholder="Last name">
+          </div>
+        </div>
+
+        <div class="form--email">
+           <label for="price">Email address: *</label>
+          <input type="text" name="email" id="email" placeholder="Email">
+        </div>
+        <div class="form--membership">
+           <label for="membership">Change Membership:</label>
+           <select id="membership">
+           </select>
+        </div>
+
+        <div class="form--name">
+          <button class="btnCancel" type="button" name="button">Cancel</button>
+          <button class="btnAdd" type="button" name="button">New Membership</button>
+        </div>
+      </form>
+
+
+      </div>
+
+
+
+    </main>
+
+
+  </body>
+</html>

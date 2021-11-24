@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEF2F5;
+}
+
+button, .btnNav {
+  cursor: pointer;
+}
+
+
+/* Container */
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* NAV */
+nav {
+  padding: 30px;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+}
+
+nav div {
+  padding: 0 20px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+.active-link {
+  color: #677EEA;
+}
+
+
+/* MAIN */
+.main {
+
+}
+
+.main .main--info {
+  display: flex;
+  padding: 30px 20px 0 0;
+}
+
+.main .main--info .info--heading h3 {
+  padding-bottom: 5px;
+}
+
+.main .main--info .info--button {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .main--info .info--button .fa-plus {
+  padding: 0 5px 0 0;
+}
+
+.main .main--info .info--button button {
+  background-color: #677EEA;
+  padding: 10px 10px;
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.main .main--subscriptions {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .main--subscriptions .subscriptions--box {
+  width: 32%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin: 4px;
+  text-align: center;
+}
+
+.main .main--subscriptions .subscriptions--box .box--heading {
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.main .main--subscriptions .subscriptions--box .box--heading {
+  padding-top: 30px;
+}
+
+.main .main--subscriptions .subscriptions--box .box--heading p {
+  padding: 5px 20px 20px 20px;
+  font-size: 12px;
+}
+
+.main .main--subscriptions .subscriptions--box .box--bottom {
+  margin: 10px 15px;
+  float: right;
+  background-color: #FCE5E8;
+}
+
+.main .main--subscriptions .subscriptions--box .box--bottom button {
+  border: 0px;
+}
+
+.main .main--subscriptions .subscriptions--box .box--bottom .fa-trash-alt {
+  padding: 5px;
+  color: #F86667;
+}
+
+/* SUB */
+.sub .sub--heading {
+  padding: 30px 0;
+}
+
+.sub .sub--info {
+  background-color: #fff;
+  height: auto;
+
+  padding: 30px;
+}
+
+.sub .sub--form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.sub .sub--form .form--price, .sub .sub--form .form--description, .sub .sub--form .form--name {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sub .first {
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+  margin: 10px 10px 0 10px;
+}
+
+.sub .second {
+  display: flex;
+  width: 70%;
+  text-align: center;
+  margin: 10px 10px 0 10px;
+}
+
+.sub .second input, .sub .second textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+}
+
+
+.sub .form--name button {
+  margin: 20px 0 0 5px;
+  border: 0px;
+}
+
+.sub .form--name .btnCancel, .sub .form--name .btnAdd {
+  background-color: #FFFFFF;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.sub .form--name .btnAdd {
+  background-color: #677EEA;
+  color: #fff;
+}
+
+/* USERS */
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.user-info .info--button {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.user-info .info--button .fa-plus {
+  padding: 0 5px 0 0;
+}
+
+.user-info .info--button button {
+  background-color: #677EEA;
+  padding: 10px 10px;
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.sort {
+  text-align: center;
+}
+.sort button {
+  border: 0px;
+  background: inherit;
+}
+
+.user-heading {
+  padding: 20px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.user-heading .name {
+  padding-bottom: 10px;
+  color: #C5CADC;
+}
+
+.user-heading span {
+  padding-bottom: 10px;
+  color: #778DED;
+}
+
+
+/* ADDUSER */
+.sub--form .form--first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub--form .form--firstname, .sub--form .form--surename {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  padding: 10px 0;
+}
+
+.sub--form .form--email, .sub--form .form--membership {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.sub--form input, .sub--form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+}
